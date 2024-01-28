@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html class="w-full">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hannah Kofman</title>
+    <style type="text/css">
+      @font-face {
+          font-family: 'Rasa';
+          src: url('assets/fonts/Rasa-VariableFont_wght.ttf') format('truetype-variations');
+          src: url('assets/fonts/Rasa-VariableFont_wght.ttf') format('truetype') tech('variations');
+          font-weight: 100 1000;
+          font-stretch: 25% 151%;
+      }
+
+      html, body {
+        font-family: Rasa;
+      }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="md:flex md:w-3/5 w-4/5 mx-auto mt-8 text-slate-700">
+    <div class="md:grow md:mr-3">
+      <a href="/">
+        <h1 class="md:mb-0 mb-2 w-max text-3xl">
+          Hannah Kofman
+        </h1>
+      </a>
+
+      <ul class="md:mt-4 md:block md:space-x-0 flex space-x-2">
+        <li class="flex items-center transition">
+          <div class="w-1 h-1 rounded-full mr-1 bg-pink-500"></div>
+          <a href="/">Home</a>
+        </li>
+        <li class="group flex items-center transition hover:translate-x-1">
+          <div class="w-1 h-1 rounded-full mr-1 bg-indigo-500 group-hover:bg-pink-500"></div>
+          <a href="/writing.html">Writing</a>
+        </li>
+        <li class="group flex items-center transition hover:translate-x-1">
+          <div class="w-1 h-1 rounded-full mr-1 bg-indigo-500 group-hover:bg-pink-500"></div>
+          <a href="/contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="md:shrink md:mt-16 mt-4">
+      <img src="assets/profile.jpeg" />
+      <p class="mt-4">
+        I’m a writer from Los Angeles currently getting an MFA in fiction at Washington University in St. Louis. You can reach me via email at kofman.hannah@gmail.com or on twitter <a href="https://twitter.com/hcakess" class="hover:underline hover:decoration-pink-500">@hcakess</a>.
+      </p>
+    </div>
+  </body>
+</html>
