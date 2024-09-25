@@ -16,7 +16,11 @@ function Page() {
     <>
       <Link href="/"><h1 className="text-3xl mb-4 font-[Pacifico]">Hannah Kofman</h1></Link>
 
-      <img src="profile.webp" className="w-full max-w-fit ms-auto me-auto mb-4 !col-span-full shadow-md" />
+      <img
+        src="profile.webp"
+        className="w-full max-w-fit ms-auto me-auto mb-4 !col-span-full shadow-md"
+        alt="A photo of Hannah Kofman standing on a busy street in Athens. The background is blurred, Hannah is smiling. She's wearing a vintage beige leather jacket, sunglasses and has her hair in a ponytail."
+      />
 
       {blurbParagraphs.map((paragraph, index) => (
         <p key={`blurb-paragraph-${index.toString()}`} className={clsx({ 'mt-2': index !== 0 })}>
