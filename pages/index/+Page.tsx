@@ -6,10 +6,11 @@ export { Page }
 
 function Page() {
   const blurbParagraphs: React.ReactNode[] = [
-    "Hannah Kofman is a writer from Los Angeles pursuing an MFA in fiction at Washington University in St. Louis.",
-    "In the past she's worked on a farm, in a restaurant, and as a tutor. Her reviews and essays have appeared in the Los Angeles Review of Books, MUBI notebook, and Michigan Quarterly Review. Her fiction explores bodies in pain and what we hide from ourselves.",
-    <>She is currently an intern at <Link href="https://dorothyproject.com" className="italic">Dorothy, a publishing project</Link>, an award-winning experimental feminist press.</>,
-    "You can reach her via email at kofman.hannah@gmail.com."
+    "Hannah Kofman has an MFA from Washington University in St. Louis. Her work has appeared in the Los Angeles Review of Books, MUBI notebook, and Michigan Quarterly Review.",
+    <>Her story won the Carrie Scott Galt Writer&apos;s award and she was a semi-finalist for the Fine Arts Work Fellowship in 2025. Other accolades include being shortlisted for the Disquiet Literary Prize 2024 and longlisted for the 2024 Ploughshares Emerging Writer&apos;s Contest. In 2021, she was longlisted for A Public Space Fellowship. At Barnard College, she won the Anna Quindlen/Axinn Foundation Award, a $25,000 prize granted to a graduating senior. She has received support from the Sewanee Writers&apos; Conference, Disquiet International Conference, Tin House Novel Workshop, and NY State Summer Writing Institute.</>,
+    <>Most recently she interned at <Link href="https://dorothyproject.com" className="italic">Dorothy, a publishing project</Link>, an award-winning experimental feminist press. She&apos;s also interned at The Los Angeles Review of Books and O, Oprah Magazine in the books department.</>,
+    <>In the past she&apos;s worked on a farm, in a restaurant, and as a tutor. Her fiction is interested in the narcissism of suffering and the intricacies of family relationships. She&apos;s currently working on a novel and a short story collection.</>,
+    <>You can reach her via email at kofman.hannah@gmail.com</>
   ];
 
   return (
