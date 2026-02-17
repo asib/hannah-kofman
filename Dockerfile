@@ -1,0 +1,17 @@
+FROM oven/bun:1 AS build
+
+WORKDIR /app
+
+COPY package.json bun.lockb ./
+RUN bun install --frozen-lockfile
+
+COPY . .
+RUN bun run build
+
+FROM nginx:1.27-alpine
+
+COPY nginx.conf /etc/nginx/conf.d/default.conf
+
+COPY --from=build /app/dist/client /usr/share/nginx/html
+
+EXPOSE 8043
