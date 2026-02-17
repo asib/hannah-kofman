@@ -62,11 +62,11 @@ function Page() {
             <ul className="space-y-1">
               {writings.map((writing, index) => (
                 <li key={`writing-${index}`}>
-                  <Link href={writing.url} className="group block rounded-xl p-4 no-underline !transition-none hover:bg-white">
+                  <Link href={writing.url} className="group block rounded-xl p-4 no-underline hover:no-underline !transition-none hover:bg-white">
                     <p className="text-xs uppercase tracking-[0.16em] text-ink/60">
                       {writing.publication} · {writing.year}
                     </p>
-                    <h3 className="mt-2 text-lg leading-snug text-ink group-hover:text-petal md:text-xl">
+                    <h3 className="mt-2 text-lg leading-snug text-ink group-hover:text-petal group-hover:underline group-hover:decoration-petal/60 underline-offset-4 md:text-xl">
                       {writing.title}
                     </h3>
                   </Link>
