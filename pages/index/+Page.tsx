@@ -12,6 +12,7 @@ function Page() {
   ];
 
   const writings = [
+    { title: "How to Start a Garden", publication: "T Magazine", year: "2026", url: "https://www.nytimes.com/article/start-garden-tips-advice.html" },
     { title: "Three Simple Breakfast Recipes to Learn by Heart", publication: "T Magazine", year: "2026", url: "https://www.nytimes.com/2026/01/22/t-magazine/breakfast-recipe-ideas.html" },
     { title: "Borderless Text: On Helen Oyeyemi's Parasol Against the Axe", publication: "Los Angeles Review of Books", year: "2024", url: "https://lareviewofbooks.org/article/borderless-text-on-helen-oyeyemis-parasol-against-the-axe/" },
     { title: "The Divorce of Women's Hands: On Johanne Lykke Holm's Strega", publication: "Los Angeles Review of Books", year: "2022", url: "https://lareviewofbooks.org/article/the-divorce-of-womens-hands-on-johanne-lykke-holms-strega/" },
