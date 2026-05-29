@@ -4,6 +4,10 @@ Generated with [Bati](https://batijs.dev) ([version 270](https://www.npmjs.com/p
 bun create bati --react --tailwindcss --eslint
 ```
 
+# Hosting
+
+This site is hosted on [Render](https://render.com), with deploys connected to this GitHub repository via GitHub OAuth (sign in to the Render dashboard with GitHub to manage the service).
+
 # Deploy
 
 Build:
