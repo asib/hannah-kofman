@@ -5,9 +5,9 @@ export { Page }
 
 function Page() {
   const blurbParagraphs: React.ReactNode[] = [
-    "Hannah Kofman has an MFA from Washington University in St. Louis. Her work has appeared in the Los Angeles Review of Books, T Magazine, MUBI notebook, and Michigan Quarterly Review.",
-    "In 2025, her story won the Carrie Scott Galt Writer's award and she was a semi-finalist for the Fine Arts Work Fellowship. Her stories have been shortlisted for the Disquiet Literary Prize and longlisted for the Ploughshares Emerging Writer's Contest and the A Public Space Fellowship. She has received support from the Sewanee Writers' Conference, Under the Volcano, VCCA, Disquiet International, Tin House, and NY State Writers Institute.",
-    "She's interned at Dorothy, a publishing project, Los Angeles Review of Books, and O, Oprah Magazine in the books department. She's also worked on a farm, in a restaurant, and as a tutor. Her fiction is interested in the narcissism of suffering and the intricacies of family relationships. She's currently working on a novel and a short story collection.",
+    "Hannah Kofman is a writer living in Los Angeles. She has an MFA from Washington University in St. Louis, where she won the Carrie Scott Galt Writer's award. Her work has appeared in T Magazine, Los Angeles Review of Books, MUBI notebook, and Michigan Quarterly Review. Her short fiction earned honorable mention in the 2026 Waasnode Fiction Prize and will appear in a forthcoming issue of Passages North. Her stories have also been shortlisted for the Disquiet Literary Prize and longlisted for the Ploughshares Emerging Writers Award and A Public Space Fellowship. She has received support from the Sewanee Writers' Conference, Under the Volcano, VCCA, New York State Writers Institute, Disquiet International, and Tin House.",
+    "She's interned at Dorothy, a publishing project, Los Angeles Review of Books, and O, Oprah Magazine in the books department. She's also worked on a farm, in a restaurant, and as a tutor.",
+    "She is currently working on a novel and a short story collection.",
     "You can reach her via email at kofman.hannah@gmail.com"
   ];
 
